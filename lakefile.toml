@@ -1,0 +1,27 @@
+name = "trustmebro"
+version = "0.1.0"
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0"
+
+[[lean_lib]]
+name = "Fixture"
+srcDir = "src/trustmebro/extraction"
+
+# Compile LeanDojo's extractor once instead of elaborating ExtractData.lean in
+# every per-file worker. This target belongs to the optional extraction setup;
+# the compatibility fixture does not depend on it.
+[[lean_exe]]
+name = "trustmebro-extract-data"
+srcDir = "data/runtime/compiled-extractor"
+root = "ExtractData"
+supportInterpreter = true
+
+# Stage 2 diagnostic extractor.  Unlike the LeanDojo compatibility extractor
+# above, this records Lean's elaborated pre-tactic proof states directly.
+[[lean_exe]]
+name = "trustmebro-extract-state"
+srcDir = "src/trustmebro/extraction"
+root = "Extract"
+supportInterpreter = true

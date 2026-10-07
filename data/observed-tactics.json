@@ -1,0 +1,1724 @@
+[
+  {
+    "kind": "Lean.Parser.Tactic.rwSeq",
+    "count": 78630,
+    "theorems": 50051,
+    "example_src": "rw [A]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.simp",
+    "count": 76059,
+    "theorems": 48835,
+    "example_src": "simp"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.exact",
+    "count": 51479,
+    "theorems": 34794,
+    "example_src": "exact A"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticHave__",
+    "count": 36105,
+    "theorems": 17186,
+    "example_src": "have := h"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.refine",
+    "count": 24670,
+    "theorems": 16944,
+    "example_src": "refine h ?_"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.obtain",
+    "count": 17913,
+    "theorems": 11588,
+    "example_src": "obtain ⟨R⟩ := R"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.apply",
+    "count": 17544,
+    "theorems": 11366,
+    "example_src": "apply A"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.simpa",
+    "count": 16725,
+    "theorems": 13184,
+    "example_src": "simpa"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.intro",
+    "count": 14217,
+    "theorems": 9936,
+    "example_src": "intro"
+  },
+  {
+    "kind": "Lean.Elab.Tactic.Ext.ext",
+    "count": 11124,
+    "theorems": 10190,
+    "example_src": "ext"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticLet__",
+    "count": 8612,
+    "theorems": 5024,
+    "example_src": "let := t i"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.rcases",
+    "count": 8382,
+    "theorems": 5923,
+    "example_src": "rcases P"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticSimp_rw___",
+    "count": 8208,
+    "theorems": 6965,
+    "example_src": "simp_rw [A]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.rintro",
+    "count": 7463,
+    "theorems": 5771,
+    "example_src": "rintro -"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticRfl",
+    "count": 5889,
+    "theorems": 4708,
+    "example_src": "rfl"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.grind",
+    "count": 5616,
+    "theorems": 3658,
+    "example_src": "grind"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticRwa__",
+    "count": 5032,
+    "theorems": 4323,
+    "example_src": "rwa [e]"
+  },
+  {
+    "kind": "«tacticBy_cases_:_»",
+    "count": 4737,
+    "theorems": 3803,
+    "example_src": "by_cases P"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.induction",
+    "count": 4426,
+    "theorems": 4006,
+    "example_src": "induction H"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.dsimp",
+    "count": 4220,
+    "theorems": 3245,
+    "example_src": "dsimp"
+  },
+  {
+    "kind": "Mathlib.Tactic.convert!",
+    "count": 3952,
+    "theorems": 3458,
+    "example_src": "convert! A"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.cases",
+    "count": 3949,
+    "theorems": 2943,
+    "example_src": "cases A"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.constructor",
+    "count": 3464,
+    "theorems": 3106,
+    "example_src": "constructor"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticSuffices_",
+    "count": 3250,
+    "theorems": 2739,
+    "example_src": "suffices e < e by simpa"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.simpAll",
+    "count": 2706,
+    "theorems": 1593,
+    "example_src": "simp_all"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.classical",
+    "count": 2619,
+    "theorems": 2607,
+    "example_src": "classical simp"
+  },
+  {
+    "kind": "Mathlib.Tactic.useSyntax",
+    "count": 2552,
+    "theorems": 2069,
+    "example_src": "use 0"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.simpaUsingBang",
+    "count": 2482,
+    "theorems": 1953,
+    "example_src": "simpa using! H"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.lia",
+    "count": 2386,
+    "theorems": 1342,
+    "example_src": "lia"
+  },
+  {
+    "kind": "Mathlib.Meta.FunProp.funPropTacStx",
+    "count": 2315,
+    "theorems": 1375,
+    "example_src": "fun_prop"
+  },
+  {
+    "kind": "Mathlib.Tactic.filterUpwards",
+    "count": 2310,
+    "theorems": 1734,
+    "example_src": "filter_upwards"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticInfer_instance",
+    "count": 2236,
+    "theorems": 1898,
+    "example_src": "infer_instance"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.congr",
+    "count": 2211,
+    "theorems": 1909,
+    "example_src": "congr"
+  },
+  {
+    "kind": "Mathlib.Tactic.GCongr.gcongr",
+    "count": 2105,
+    "theorems": 1422,
+    "example_src": "gcongr"
+  },
+  {
+    "kind": "Mathlib.Tactic.Positivity.positivity",
+    "count": 1946,
+    "theorems": 1130,
+    "example_src": "positivity"
+  },
+  {
+    "kind": "Lean.calcTactic",
+    "count": 1893,
+    "theorems": 1591,
+    "example_src": "calc 1 < b' * n := h_bn\n         _ ≤ z := hz.1"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.replace",
+    "count": 1815,
+    "theorems": 1327,
+    "example_src": "replace H := H.2"
+  },
+  {
+    "kind": "Aesop.Frontend.Parser.aesopTactic",
+    "count": 1780,
+    "theorems": 1311,
+    "example_src": "aesop"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.change",
+    "count": 1716,
+    "theorems": 1517,
+    "example_src": "change H n"
+  },
+  {
+    "kind": "Mathlib.Tactic.RingNF.ring",
+    "count": 1493,
+    "theorems": 1077,
+    "example_src": "ring"
+  },
+  {
+    "kind": "Mathlib.Tactic.setTactic",
+    "count": 1279,
+    "theorems": 868,
+    "example_src": "set m := _"
+  },
+  {
+    "kind": "Mathlib.Tactic.linarith",
+    "count": 1270,
+    "theorems": 679,
+    "example_src": "linarith"
+  },
+  {
+    "kind": "Mathlib.Tactic.splitIfs",
+    "count": 1245,
+    "theorems": 1114,
+    "example_src": "split_ifs"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.subst",
+    "count": 1148,
+    "theorems": 1008,
+    "example_src": "subst C"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticNorm_cast__",
+    "count": 1024,
+    "theorems": 790,
+    "example_src": "norm_cast"
+  },
+  {
+    "kind": "Mathlib.Tactic.GRewrite.grwSeq",
+    "count": 1018,
+    "theorems": 859,
+    "example_src": "grw [h]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.unfold",
+    "count": 951,
+    "theorems": 884,
+    "example_src": "unfold B"
+  },
+  {
+    "kind": "Mathlib.Tactic.Contrapose.contrapose!",
+    "count": 909,
+    "theorems": 855,
+    "example_src": "contrapose!"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.assumption",
+    "count": 794,
+    "theorems": 380,
+    "example_src": "assumption"
+  },
+  {
+    "kind": "Lean.Elab.Tactic.Ext.tacticExt1___",
+    "count": 746,
+    "theorems": 660,
+    "example_src": "ext1"
+  },
+  {
+    "kind": "CategoryTheory.cat_disch",
+    "count": 716,
+    "theorems": 553,
+    "example_src": "cat_disch"
+  },
+  {
+    "kind": "Mathlib.Tactic.normNum",
+    "count": 716,
+    "theorems": 452,
+    "example_src": "norm_num"
+  },
+  {
+    "kind": "Mathlib.Tactic.Choose.choose",
+    "count": 691,
+    "theorems": 606,
+    "example_src": "choose a h using h"
+  },
+  {
+    "kind": "Mathlib.Tactic.lift",
+    "count": 626,
+    "theorems": 507,
+    "example_src": "lift m to ℕ"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.specialize",
+    "count": 604,
+    "theorems": 498,
+    "example_src": "specialize C T"
+  },
+  {
+    "kind": "Batteries.Tactic.tacticSwap",
+    "count": 579,
+    "theorems": 456,
+    "example_src": "swap"
+  },
+  {
+    "kind": "Mathlib.Tactic.Tauto.tauto",
+    "count": 577,
+    "theorems": 445,
+    "example_src": "tauto"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.decide",
+    "count": 574,
+    "theorems": 376,
+    "example_src": "decide"
+  },
+  {
+    "kind": "Batteries.Tactic.exacts",
+    "count": 551,
+    "theorems": 509,
+    "example_src": "exacts [pa, h]"
+  },
+  {
+    "kind": "Batteries.Tactic.byContra",
+    "count": 543,
+    "theorems": 515,
+    "example_src": "by_contra"
+  },
+  {
+    "kind": "Mathlib.Tactic.Conv.convRHS",
+    "count": 522,
+    "theorems": 506,
+    "example_src": "conv_rhs => simp"
+  },
+  {
+    "kind": "Mathlib.Tactic.ByContra.byContra!",
+    "count": 518,
+    "theorems": 482,
+    "example_src": "by_contra!"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticNth_rw_____",
+    "count": 515,
+    "theorems": 461,
+    "example_src": "nth_rw 1 [h]"
+  },
+  {
+    "kind": "Mathlib.Tactic.Conv.convLHS",
+    "count": 484,
+    "theorems": 461,
+    "example_src": "conv_lhs => dsimp"
+  },
+  {
+    "kind": "Mathlib.Tactic.ByCases.byCases!",
+    "count": 460,
+    "theorems": 404,
+    "example_src": "by_cases! 0 ≤ n"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.intros",
+    "count": 443,
+    "theorems": 257,
+    "example_src": "intros"
+  },
+  {
+    "kind": "Congr!.congr!",
+    "count": 439,
+    "theorems": 392,
+    "example_src": "congr!"
+  },
+  {
+    "kind": "Mathlib.Tactic.Contrapose.contrapose",
+    "count": 438,
+    "theorems": 405,
+    "example_src": "contrapose"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticSeq",
+    "count": 428,
+    "theorems": 171,
+    "example_src": "lia"
+  },
+  {
+    "kind": "Lean.Elab.Tactic.finCases",
+    "count": 413,
+    "theorems": 202,
+    "example_src": "fin_cases a"
+  },
+  {
+    "kind": "Mathlib.Tactic.TFAE.tfaeHave",
+    "count": 394,
+    "theorems": 83,
+    "example_src": "tfae_have 1 ↔ 2 := Iff.rfl"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.pushCast",
+    "count": 380,
+    "theorems": 325,
+    "example_src": "push_cast"
+  },
+  {
+    "kind": "Batteries.Tactic.congrConfigWith",
+    "count": 371,
+    "theorems": 333,
+    "example_src": "congr with"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.clear",
+    "count": 356,
+    "theorems": 279,
+    "example_src": "clear a"
+  },
+  {
+    "kind": "Mathlib.Tactic.wlog",
+    "count": 347,
+    "theorems": 291,
+    "example_src": "wlog h : c ≤ b"
+  },
+  {
+    "kind": "Mathlib.Tactic.Nontriviality.nontriviality",
+    "count": 337,
+    "theorems": 331,
+    "example_src": "nontriviality"
+  },
+  {
+    "kind": "Batteries.Tactic.tacticTrans___",
+    "count": 328,
+    "theorems": 296,
+    "example_src": "trans"
+  },
+  {
+    "kind": "Mathlib.Tactic.Abel.abel",
+    "count": 327,
+    "theorems": 278,
+    "example_src": "abel"
+  },
+  {
+    "kind": "Mathlib.Tactic.LinearCombination.linearCombination",
+    "count": 323,
+    "theorems": 260,
+    "example_src": "linear_combination H"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.symm",
+    "count": 309,
+    "theorems": 293,
+    "example_src": "symm"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticErw___",
+    "count": 309,
+    "theorems": 245,
+    "example_src": "erw [h]"
+  },
+  {
+    "kind": "Mathlib.Tactic.convert",
+    "count": 307,
+    "theorems": 281,
+    "example_src": "convert H"
+  },
+  {
+    "kind": "Mathlib.Tactic.applyFun",
+    "count": 298,
+    "theorems": 257,
+    "example_src": "apply_fun f"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.Conv.conv",
+    "count": 291,
+    "theorems": 253,
+    "example_src": "conv => congr"
+  },
+  {
+    "kind": "Mathlib.Tactic.RingNF.ringNF",
+    "count": 285,
+    "theorems": 246,
+    "example_src": "ring_nf"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.revert",
+    "count": 273,
+    "theorems": 241,
+    "example_src": "revert G"
+  },
+  {
+    "kind": "tacticFunext___",
+    "count": 271,
+    "theorems": 230,
+    "example_src": "funext"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticExact_mod_cast_",
+    "count": 266,
+    "theorems": 220,
+    "example_src": "exact_mod_cast H"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.contradiction",
+    "count": 262,
+    "theorems": 216,
+    "example_src": "contradiction"
+  },
+  {
+    "kind": "Mathlib.Tactic.Ring.ring1",
+    "count": 253,
+    "theorems": 204,
+    "example_src": "ring1"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.delta",
+    "count": 225,
+    "theorems": 211,
+    "example_src": "delta xz"
+  },
+  {
+    "kind": "Mathlib.Tactic.FieldSimp.field",
+    "count": 219,
+    "theorems": 168,
+    "example_src": "field"
+  },
+  {
+    "kind": "Mathlib.Tactic.Push.pushStx",
+    "count": 216,
+    "theorems": 207,
+    "example_src": "push Not"
+  },
+  {
+    "kind": "Mathlib.Tactic.FieldSimp.fieldSimp",
+    "count": 215,
+    "theorems": 184,
+    "example_src": "field_simp"
+  },
+  {
+    "kind": "Mathlib.Tactic.Slice.sliceLHS",
+    "count": 203,
+    "theorems": 56,
+    "example_src": "slice_lhs 1 2 => rw [hf]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.generalize",
+    "count": 190,
+    "theorems": 154,
+    "example_src": "generalize 0 = n"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.match",
+    "count": 188,
+    "theorems": 171,
+    "example_src": "match x with | 0 => rfl"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.right",
+    "count": 175,
+    "theorems": 147,
+    "example_src": "right"
+  },
+  {
+    "kind": "finiteness",
+    "count": 172,
+    "theorems": 112,
+    "example_src": "finiteness"
+  },
+  {
+    "kind": "«{»",
+    "count": 172,
+    "theorems": 81,
+    "example_src": "{"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticAlgebraize__",
+    "count": 162,
+    "theorems": 157,
+    "example_src": "algebraize [f]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.left",
+    "count": 160,
+    "theorems": 138,
+    "example_src": "left"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.omega",
+    "count": 141,
+    "theorems": 82,
+    "example_src": "omega"
+  },
+  {
+    "kind": "Mathlib.Tactic.introv",
+    "count": 138,
+    "theorems": 121,
+    "example_src": "introv"
+  },
+  {
+    "kind": "Batteries.Tactic.seq_focus",
+    "count": 135,
+    "theorems": 118,
+    "example_src": "cases h <;> [right; left]"
+  },
+  {
+    "kind": "Mathlib.Tactic.nlinarith",
+    "count": 128,
+    "theorems": 85,
+    "example_src": "nlinarith"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.injection",
+    "count": 125,
+    "theorems": 89,
+    "example_src": "injection e"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticExfalso",
+    "count": 125,
+    "theorems": 96,
+    "example_src": "exfalso"
+  },
+  {
+    "kind": "Mathlib.Tactic.Choose.tacticChoose!___Using_",
+    "count": 125,
+    "theorems": 107,
+    "example_src": "choose! C hC using h"
+  },
+  {
+    "kind": "Mathlib.Tactic.subsingletonStx",
+    "count": 125,
+    "theorems": 90,
+    "example_src": "subsingleton"
+  },
+  {
+    "kind": "Mathlib.Tactic.normNum1",
+    "count": 124,
+    "theorems": 43,
+    "example_src": "norm_num1"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticTrivial",
+    "count": 123,
+    "theorems": 104,
+    "example_src": "trivial"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.applyRules",
+    "count": 122,
+    "theorems": 67,
+    "example_src": "apply_rules"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.substVars",
+    "count": 119,
+    "theorems": 104,
+    "example_src": "subst_vars"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticNth_rewrite_____",
+    "count": 118,
+    "theorems": 103,
+    "example_src": "nth_rewrite 3 [H]"
+  },
+  {
+    "kind": "Mathlib.Tactic.Slice.sliceRHS",
+    "count": 106,
+    "theorems": 38,
+    "example_src": "slice_rhs 1 2 => rw [he]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.split",
+    "count": 103,
+    "theorems": 89,
+    "example_src": "split"
+  },
+  {
+    "kind": "Lean.Elab.Tactic.inhabit",
+    "count": 100,
+    "theorems": 95,
+    "example_src": "inhabit G"
+  },
+  {
+    "kind": "Mathlib.Tactic.Borelize.tacticBorelize___",
+    "count": 95,
+    "theorems": 95,
+    "example_src": "borelize A"
+  },
+  {
+    "kind": "Mathlib.Tactic.congrM",
+    "count": 89,
+    "theorems": 86,
+    "example_src": "congrm f ?_"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticApply_At_",
+    "count": 87,
+    "theorems": 71,
+    "example_src": "apply H at h"
+  },
+  {
+    "kind": "Mathlib.Tactic.Module.tacticModule",
+    "count": 85,
+    "theorems": 58,
+    "example_src": "module"
+  },
+  {
+    "kind": "Mathlib.Tactic.TFAE.tfaeFinish",
+    "count": 84,
+    "theorems": 83,
+    "example_src": "tfae_finish"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.«tacticExists_,,»",
+    "count": 83,
+    "theorems": 66,
+    "example_src": "exists 0"
+  },
+  {
+    "kind": "Mathlib.Tactic.measurability",
+    "count": 82,
+    "theorems": 57,
+    "example_src": "measurability"
+  },
+  {
+    "kind": "Mathlib.Tactic.Bicategory.tacticBicategory",
+    "count": 79,
+    "theorems": 34,
+    "example_src": "bicategory"
+  },
+  {
+    "kind": "Mathlib.Tactic.applyWith",
+    "count": 77,
+    "theorems": 64,
+    "example_src": "apply +allowSynthFailures h₂"
+  },
+  {
+    "kind": "«tactic#adaptation_note_»",
+    "count": 74,
+    "theorems": 63,
+    "example_src": "#adaptation_note /-- Needed after nightly-2023-02-23 -/"
+  },
+  {
+    "kind": "Batteries.Tactic.«tacticOn_goal-_=>_»",
+    "count": 71,
+    "theorems": 59,
+    "example_src": "on_goal 1 => symm"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.rotateLeft",
+    "count": 70,
+    "theorems": 63,
+    "example_src": "rotate_left"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticIterate____",
+    "count": 68,
+    "theorems": 58,
+    "example_src": "iterate 2 simp"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.renameI",
+    "count": 66,
+    "theorems": 41,
+    "example_src": "rename_i D"
+  },
+  {
+    "kind": "Mathlib.Tactic.convertTo",
+    "count": 65,
+    "theorems": 61,
+    "example_src": "convert_to product ∈ q.1"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.clearValue",
+    "count": 56,
+    "theorems": 51,
+    "example_src": "clear_value F"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.acRfl",
+    "count": 55,
+    "theorems": 45,
+    "example_src": "ac_rfl"
+  },
+  {
+    "kind": "Mathlib.Tactic.Monoidal.tacticMonoidal",
+    "count": 55,
+    "theorems": 31,
+    "example_src": "monoidal"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.solveByElim",
+    "count": 50,
+    "theorems": 29,
+    "example_src": "solve_by_elim"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacDepIfThenElse",
+    "count": 50,
+    "theorems": 41,
+    "example_src": "if hp : p.Prime then ?_ else simp [hp]"
+  },
+  {
+    "kind": "Batteries.Tactic.tacticFapply_",
+    "count": 46,
+    "theorems": 44,
+    "example_src": "fapply isoMk"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.simpAutoUnfold",
+    "count": 44,
+    "theorems": 27,
+    "example_src": "simp!"
+  },
+  {
+    "kind": "Mathlib.Tactic.wlog!",
+    "count": 44,
+    "theorems": 42,
+    "example_src": "wlog! h : 0 ≤ x"
+  },
+  {
+    "kind": "Mathlib.Linter.Style.show",
+    "count": 43,
+    "theorems": 22,
+    "example_src": "show 1 ≤ q"
+  },
+  {
+    "kind": "Mathlib.Tactic.Module.tacticMatch_scalars",
+    "count": 42,
+    "theorems": 36,
+    "example_src": "match_scalars"
+  },
+  {
+    "kind": "Mathlib.Tactic.rsuffices",
+    "count": 42,
+    "theorems": 41,
+    "example_src": "rsuffices : L'.IsLeftAdjoint"
+  },
+  {
+    "kind": "Mathlib.Tactic.MfldSetTac.mfldSetTac",
+    "count": 41,
+    "theorems": 26,
+    "example_src": "mfld_set_tac"
+  },
+  {
+    "kind": "Mathlib.Linter.HaveILetI.tacticHaveI__",
+    "count": 38,
+    "theorems": 18,
+    "example_src": "haveI := H X"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticRw_mod_cast___",
+    "count": 35,
+    "theorems": 33,
+    "example_src": "rw_mod_cast [H]"
+  },
+  {
+    "kind": "tacticFconstructor",
+    "count": 31,
+    "theorems": 26,
+    "example_src": "fconstructor"
+  },
+  {
+    "kind": "Batteries.Tactic.generalizeProofsElab",
+    "count": 29,
+    "theorems": 28,
+    "example_src": "generalize_proofs"
+  },
+  {
+    "kind": "Filter.tacticIsBoundedDefault",
+    "count": 28,
+    "theorems": 18,
+    "example_src": "isBoundedDefault"
+  },
+  {
+    "kind": "Mathlib.Tactic.DepRewrite.depRwSeq",
+    "count": 28,
+    "theorems": 25,
+    "example_src": "rw! [e]"
+  },
+  {
+    "kind": "Mathlib.Tactic.GCongr.gconvert",
+    "count": 27,
+    "theorems": 26,
+    "example_src": "gconvert h"
+  },
+  {
+    "kind": "Mathlib.Tactic.clear!",
+    "count": 26,
+    "theorems": 23,
+    "example_src": "clear! C"
+  },
+  {
+    "kind": "Mathlib.Tactic.Group.group",
+    "count": 25,
+    "theorems": 22,
+    "example_src": "group"
+  },
+  {
+    "kind": "Mathlib.Tactic.Order.tacticOrder_",
+    "count": 25,
+    "theorems": 18,
+    "example_src": "order"
+  },
+  {
+    "kind": "Mathlib.Tactic.Zify.zify",
+    "count": 24,
+    "theorems": 24,
+    "example_src": "zify"
+  },
+  {
+    "kind": "«tacticBound[_]»",
+    "count": 24,
+    "theorems": 17,
+    "example_src": "bound"
+  },
+  {
+    "kind": "Mathlib.Tactic.convert_to!",
+    "count": 23,
+    "theorems": 23,
+    "example_src": "convert_to! _ ↔ π _ = 1"
+  },
+  {
+    "kind": "SzemerediRegularity.Positivity.tacticSz_positivity",
+    "count": 23,
+    "theorems": 12,
+    "example_src": "sz_positivity"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticAssumption_mod_cast_",
+    "count": 22,
+    "theorems": 18,
+    "example_src": "assumption_mod_cast"
+  },
+  {
+    "kind": "AlgebraicGeometry.ProjIsoSpecTopComponent.FromSpec.tacticMem_tac",
+    "count": 19,
+    "theorems": 5,
+    "example_src": "mem_tac"
+  },
+  {
+    "kind": "Batteries.Tactic.tacticAbsurd_",
+    "count": 19,
+    "theorems": 15,
+    "example_src": "absurd H"
+  },
+  {
+    "kind": "Mathlib.Tactic.intervalCases",
+    "count": 19,
+    "theorems": 18,
+    "example_src": "interval_cases a"
+  },
+  {
+    "kind": "Mathlib.Tactic.Rify.rify",
+    "count": 18,
+    "theorems": 16,
+    "example_src": "rify"
+  },
+  {
+    "kind": "Mathlib.Tactic.Abel.abelNF",
+    "count": 17,
+    "theorems": 16,
+    "example_src": "abel_nf"
+  },
+  {
+    "kind": "Mathlib.Tactic.TautoSet.tacticTauto_set",
+    "count": 17,
+    "theorems": 8,
+    "example_src": "tauto_set"
+  },
+  {
+    "kind": "Mathlib.Tactic.etaExpandStx",
+    "count": 17,
+    "theorems": 16,
+    "example_src": "eta_expand"
+  },
+  {
+    "kind": "Mathlib.Tactic.NoncommRing.noncomm_ring",
+    "count": 16,
+    "theorems": 11,
+    "example_src": "noncomm_ring"
+  },
+  {
+    "kind": "Mathlib.Tactic.betaReduceStx",
+    "count": 16,
+    "theorems": 14,
+    "example_src": "beta_reduce"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.open",
+    "count": 15,
+    "theorems": 15,
+    "example_src": "open scoped Norms.Operator in exact (Ring.inverse_exp A).symm"
+  },
+  {
+    "kind": "Mathlib.Tactic.Says.says",
+    "count": 15,
+    "theorems": 11,
+    "example_src": "simp? at h ⊢ says simp only [Option.mem_def] at h ⊢"
+  },
+  {
+    "kind": "cfcTac",
+    "count": 15,
+    "theorems": 11,
+    "example_src": "cfc_tac"
+  },
+  {
+    "kind": "CategoryTheory.ComposableArrows.tacticValid",
+    "count": 13,
+    "theorems": 13,
+    "example_src": "valid"
+  },
+  {
+    "kind": "CategoryTheory.tacticSubst_hom_lift___",
+    "count": 13,
+    "theorems": 13,
+    "example_src": "subst_hom_lift p f φ"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.injections",
+    "count": 13,
+    "theorems": 7,
+    "example_src": "injections"
+  },
+  {
+    "kind": "Mathlib.Tactic.casesM",
+    "count": 13,
+    "theorems": 6,
+    "example_src": "casesm Sum _ _"
+  },
+  {
+    "kind": "Mathlib.Linter.HaveILetI.tacticLetI__",
+    "count": 12,
+    "theorems": 10,
+    "example_src": "letI := Equiv.add e"
+  },
+  {
+    "kind": "Mathlib.Tactic.GRewrite.tacticNth_grw_____",
+    "count": 12,
+    "theorems": 10,
+    "example_src": "nth_grw 1 [ih]"
+  },
+  {
+    "kind": "Batteries.Tactic.rcongr",
+    "count": 11,
+    "theorems": 10,
+    "example_src": "rcongr"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticSeqBracketed",
+    "count": 11,
+    "theorems": 5,
+    "example_src": "{grind}"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.withUnfoldingAll",
+    "count": 11,
+    "theorems": 11,
+    "example_src": "with_unfolding_all rfl"
+  },
+  {
+    "kind": "Mathlib.Tactic.Push.pull",
+    "count": 11,
+    "theorems": 11,
+    "example_src": "pull fun _ ↦ _"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Projective.Formula.0.tacticMap_simp",
+    "count": 11,
+    "theorems": 11,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "TensorProduct.tacticHopf_tensor_induction_With__",
+    "count": 10,
+    "theorems": 2,
+    "example_src": "hopf_tensor_induction comul (R := R) y with y₁ y₂"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Formula.0.tacticMap_simp",
+    "count": 10,
+    "theorems": 10,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.rewriteSeq",
+    "count": 9,
+    "theorems": 7,
+    "example_src": "rewrite [Hz₁, Hz₂, sq]"
+  },
+  {
+    "kind": "Mathlib.Tactic.casesType",
+    "count": 9,
+    "theorems": 3,
+    "example_src": "cases_type* Bool"
+  },
+  {
+    "kind": "Set.tacticTo_encard_tac",
+    "count": 9,
+    "theorems": 9,
+    "example_src": "to_encard_tac"
+  },
+  {
+    "kind": "WittVector.mapFun.tacticMap_fun_tac",
+    "count": 9,
+    "theorems": 9,
+    "example_src": "map_fun_tac"
+  },
+  {
+    "kind": "WittVector.«tacticGhost_fun_tac_,_»",
+    "count": 9,
+    "theorems": 9,
+    "example_src": "ghost_fun_tac 0, ![]"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Formula.0.tacticEval_simp",
+    "count": 9,
+    "theorems": 7,
+    "example_src": "eval_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point.0.tacticC_simp",
+    "count": 9,
+    "theorems": 6,
+    "example_src": "C_simp"
+  },
+  {
+    "kind": "WittVector.initRing",
+    "count": 8,
+    "theorems": 8,
+    "example_src": "init_ring"
+  },
+  {
+    "kind": "Batteries.Tactic.tacticTransitivity___",
+    "count": 7,
+    "theorems": 7,
+    "example_src": "transitivity A + ‖f x‖ * A"
+  },
+  {
+    "kind": "CategoryTheory.aesop_cat",
+    "count": 7,
+    "theorems": 6,
+    "example_src": "aesop_cat"
+  },
+  {
+    "kind": "Fin.tacticFin_omega",
+    "count": 7,
+    "theorems": 5,
+    "example_src": "fin_omega"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.funInduction",
+    "count": 7,
+    "theorems": 7,
+    "example_src": "fun_induction List.bagInter with grind"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.withReducible",
+    "count": 7,
+    "theorems": 6,
+    "example_src": "with_reducible rfl"
+  },
+  {
+    "kind": "Mathlib.Tactic.ComputeDegree.tacticCompute_degree!",
+    "count": 7,
+    "theorems": 7,
+    "example_src": "compute_degree!"
+  },
+  {
+    "kind": "Mathlib.Tactic.ModuleNF.moduleNF",
+    "count": 7,
+    "theorems": 6,
+    "example_src": "module_nf"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticAlgebraize_only__",
+    "count": 7,
+    "theorems": 6,
+    "example_src": "algebraize_only [f]"
+  },
+  {
+    "kind": "Mathlib.Tactic.«tacticSimp_intro_____..Only_»",
+    "count": 7,
+    "theorems": 5,
+    "example_src": "simp_intro h"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Formula.0.tacticMap_simp",
+    "count": 7,
+    "theorems": 6,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass.0.tacticMap_simp",
+    "count": 7,
+    "theorems": 7,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "witt_truncateFun_tac",
+    "count": 7,
+    "theorems": 7,
+    "example_src": "witt_truncateFun_tac"
+  },
+  {
+    "kind": "Batteries.Tactic.«tacticPick_goal-_»",
+    "count": 6,
+    "theorems": 6,
+    "example_src": "pick_goal 2"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.applyAssumption",
+    "count": 6,
+    "theorems": 4,
+    "example_src": "apply_assumption"
+  },
+  {
+    "kind": "Mathlib.Tactic.ComputeDegree.computeDegree",
+    "count": 6,
+    "theorems": 6,
+    "example_src": "compute_degree"
+  },
+  {
+    "kind": "Mathlib.Tactic.Qify.qify",
+    "count": 6,
+    "theorems": 5,
+    "example_src": "qify"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.DivisionPolynomial.Basic.0.tacticC_simp",
+    "count": 6,
+    "theorems": 4,
+    "example_src": "C_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Basic.0.tacticMap_simp",
+    "count": 6,
+    "theorems": 3,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "tacticContinuity",
+    "count": 6,
+    "theorems": 6,
+    "example_src": "continuity"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.grobner",
+    "count": 5,
+    "theorems": 3,
+    "example_src": "grobner"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.rename",
+    "count": 5,
+    "theorems": 3,
+    "example_src": "rename V => x"
+  },
+  {
+    "kind": "Mathlib.Tactic.Interactive.tacticUnit_interval",
+    "count": 5,
+    "theorems": 2,
+    "example_src": "unit_interval"
+  },
+  {
+    "kind": "Mathlib.Tactic.unfoldProjsStx",
+    "count": 5,
+    "theorems": 5,
+    "example_src": "unfold_projs"
+  },
+  {
+    "kind": "Mathlib.Tactic.«tacticExistsi_,,»",
+    "count": 5,
+    "theorems": 4,
+    "example_src": "existsi 0"
+  },
+  {
+    "kind": "Real.«tacticPi_lower_bound[_,,]»",
+    "count": 5,
+    "theorems": 5,
+    "example_src": "pi_lower_bound [23 / 16]"
+  },
+  {
+    "kind": "Real.«tacticPi_upper_bound[_,,]»",
+    "count": 5,
+    "theorems": 5,
+    "example_src": "pi_upper_bound [4 / 3]"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange.0.tacticMap_simp",
+    "count": 5,
+    "theorems": 1,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.funCases",
+    "count": 4,
+    "theorems": 3,
+    "example_src": "fun_cases log.go with grind"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.set_option",
+    "count": 4,
+    "theorems": 3,
+    "example_src": "set_option backward.isDefEq.respectTransparency false in\n    simp"
+  },
+  {
+    "kind": "Mathlib.MoveAdd.tacticMove_mul_",
+    "count": 4,
+    "theorems": 4,
+    "example_src": "move_mul [C]"
+  },
+  {
+    "kind": "Mathlib.Tactic.GRewrite.applyRwSeq",
+    "count": 4,
+    "theorems": 2,
+    "example_src": "apply_rw [And.left]"
+  },
+  {
+    "kind": "Mathlib.Tactic.«tacticUse!___,,»",
+    "count": 4,
+    "theorems": 3,
+    "example_src": "use! Perm.ofSubtype g"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Basic.0.tacticMap_simp",
+    "count": 4,
+    "theorems": 4,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "Batteries.Tactic.tacticSplit_ands",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "split_ands"
+  },
+  {
+    "kind": "Lean.Elab.Tactic.clearExceptTactic",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "clear * -"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.as_aux_lemma",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "as_aux_lemma => grind"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticAnd_intros",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "and_intros"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.withReducibleAndInstances",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "with_reducible_and_instances rfl"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.«tacticNomatch_,,»",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "nomatch f"
+  },
+  {
+    "kind": "Mathlib.Tactic.ComputeDegree.tacticMonicity!",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "monicity!"
+  },
+  {
+    "kind": "Mathlib.Tactic.ENatToNat.tacticEnat_to_nat",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "enat_to_nat"
+  },
+  {
+    "kind": "Mathlib.Tactic.RingNF.tacticRing!",
+    "count": 3,
+    "theorems": 2,
+    "example_src": "ring!"
+  },
+  {
+    "kind": "Mathlib.Tactic.inferOptParam",
+    "count": 3,
+    "theorems": 2,
+    "example_src": "infer_param"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticAssumption'",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "assumption'"
+  },
+  {
+    "kind": "WittVector.Tactic.ghostCalc",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "ghost_calc x"
+  },
+  {
+    "kind": "WittVector.Tactic.ghostSimp",
+    "count": 3,
+    "theorems": 2,
+    "example_src": "ghost_simp [mul_comm]"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Basic.0.tacticEval_simp",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "eval_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Formula.0.tacticC_simp",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "C_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Basic.0.tacticPderiv_simp",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "pderiv_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Projective.Basic.0.tacticMap_simp",
+    "count": 3,
+    "theorems": 2,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Projective.Basic.0.tacticPderiv_simp",
+    "count": 3,
+    "theorems": 3,
+    "example_src": "pderiv_simp"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.dsimpAutoUnfold",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "dsimp! only"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.letrec",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "let rec strictMono : ∀ m ≤ b + 1, m ≤ f m\n    | 0, _ => Nat.zero_le _\n    | m + 1, hmb => (strictMono _ <| m.le_succ.trans hmb).trans_lt <| (hfmono m.le_succ).lt_of_ne <|\n        hfb _ <| Nat.le_of_succ_le_succ hmb"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.normCast0",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "norm_cast0"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.simpAllAutoUnfold",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "simp_all! [k]"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticAc_nf_",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "ac_nf"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticApply_mod_cast_",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "apply_mod_cast lp.hasSum_norm ?_ (fourierBasis.repr f)"
+  },
+  {
+    "kind": "Mathlib.Tactic.Abel.abel1",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "abel1"
+  },
+  {
+    "kind": "Mathlib.Tactic.Monoidal.tacticMonoidal_coherence",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "monoidal_coherence"
+  },
+  {
+    "kind": "Mathlib.Tactic.MvBisim.tacticMv_bisim___With___",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "mv_bisim i with R a b x Ha Hb"
+  },
+  {
+    "kind": "Mathlib.Tactic.rename'",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "rename' m => M"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticSet!_",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "set! t := (ris ω).getD j 1 with h₁"
+  },
+  {
+    "kind": "Nat.tacticBitwise_assoc_tac",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "bitwise_assoc_tac"
+  },
+  {
+    "kind": "Num.transfer",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "transfer"
+  },
+  {
+    "kind": "Num.transfer_rw",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "transfer_rw"
+  },
+  {
+    "kind": "ZNum.transfer_rw",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "transfer_rw"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Formula.0.tacticDerivative_simp",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "derivative_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Basic.0.tacticMatrix_simp",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "matrix_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Projective.Basic.0.tacticMatrix_simp",
+    "count": 2,
+    "theorems": 1,
+    "example_src": "matrix_simp"
+  },
+  {
+    "kind": "cfcContTac",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "cfc_cont_tac"
+  },
+  {
+    "kind": "choice",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "cancel_denoms"
+  },
+  {
+    "kind": "tacticBddDefault",
+    "count": 2,
+    "theorems": 2,
+    "example_src": "bddDefault"
+  },
+  {
+    "kind": "ArithmeticFunction.arith_mult",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "arith_mult"
+  },
+  {
+    "kind": "Batteries.Tactic.congrConfig",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "congr (config := { closePost := false }) 1"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.cbv",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "cbv"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.extractLets",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "extract_lets u₁ u₂ at this"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.rotateRight",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "rotate_right"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.runTac",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "run_tac do\n    for i in [317, 163, 83, 43, 23, 13, 7, 5, 3, 2] do\n      let i : Term := quote i\n      evalTactic <| ←\n        `(tactic| refine exists_prime_lt_and_le_two_mul_succ $i (by norm_num1) (by norm_num1) ?_)"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticHave'",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "have' hKe := hK.2 (t := K \\ {e}) (sdiff_singleton_ssubset.2 (he.symm.subset rfl).2)"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticHaveI__",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "haveI : DecidablePred p := fun i ↦ Classical.propDecidable (p i)"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticNofun",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "nofun"
+  },
+  {
+    "kind": "Lean.Parser.Tactic.tacticSimpa!__1",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "simpa! using! congr_arg List.dropLast (map_fst_darts_append p)"
+  },
+  {
+    "kind": "Mathlib.Tactic.ComputeDegree.monicityMacro",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "monicity"
+  },
+  {
+    "kind": "Mathlib.Tactic.GCongr.«tacticRel[_]»",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "rel [eLpNorm_le_eLpNorm_fderiv_of_eq μ hu h2u' hp (mod_cast h2p.pos) hp']"
+  },
+  {
+    "kind": "Mathlib.Tactic.constructorM",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "constructorm* _ ∧ _"
+  },
+  {
+    "kind": "Mathlib.Tactic.refoldLetStx",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "refold_let n n' C"
+  },
+  {
+    "kind": "Mathlib.Tactic.tacticLinarith!_",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "linarith!"
+  },
+  {
+    "kind": "Matroid.aesop_mat",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "aesop_mat"
+  },
+  {
+    "kind": "ZNum.transfer",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "transfer"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Jacobian.Point.0.tacticMap_simp",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "_private.Mathlib.AlgebraicGeometry.EllipticCurve.Projective.Point.0.tacticMap_simp",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "map_simp"
+  },
+  {
+    "kind": "bdsimp",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "bdsimp"
+  },
+  {
+    "kind": "cfcZeroTac",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "cfc_zero_tac"
+  },
+  {
+    "kind": "tacticSimp_wf",
+    "count": 1,
+    "theorems": 1,
+    "example_src": "simp_wf"
+  }
+]
